@@ -1,0 +1,82 @@
+PAPARAN LAP DASHBOARD KOLABORASI - VERSI GITHUB
+Muhamad Abrar Saputrabey
+
+Paket ini siap diunggah ke GitHub Pages. Semua foto, dokumen PDF,
+video tutorial dan testimoni tetap memakai data media yang sama dengan
+HTML offline, tanpa penurunan resolusi atau kompresi ulang.
+Tata letak cetak A4 landscape juga dipertahankan.
+
+PENTING
+- Ekstrak ZIP terlebih dahulu. Jangan unggah ZIP ke repository.
+- Unggah index.html DAN semua folder pendamping. Mengunggah index.html
+  saja membuat gambar, PDF dan video tidak tersedia.
+- index.html harus ada di halaman paling atas (root) repository,
+  bukan di dalam folder Paparan_LAP_GitHub yang bersarang.
+- Jangan mengubah nama atau susunan folder/file.
+- Versi ini untuk website. Untuk penggunaan tanpa internet dengan cara
+  klik dua kali file, gunakan HTML offline sebelumnya. Pembaca PDF web
+  menggunakan permintaan HTTP dan tidak ditujukan untuk file:// lokal.
+
+SUSUNAN PAKET
+index.html       : paparan utama, sekitar 218 KB
+foto/            : 66 foto/gambar antarmuka, logo dan bukti lainnya
+dokumentasi/     : 36 foto dokumentasi kegiatan
+pdf/             : 14 dokumen evidence dan dukungan
+video/           : 4 video tutorial dan testimoni
+aset/            : 2 file pembaca PDF
+.nojekyll        : pengaturan penyajian file statis
+PANDUAN_GITHUB.txt: petunjuk ini
+
+Semua file di dalam paket berada di bawah 25 MiB per file.
+File terbesar sekitar 6,4 MiB. Ukuran ZIP keseluruhan bukan ukuran
+yang dibatasi untuk satu file di repository, karena ZIP diekstrak dulu.
+
+CARA UNGGAH MELALUI BROWSER
+1. Ekstrak paket ZIP di komputer (klik kanan > Extract All / Ekstrak Semua).
+2. Buka folder hasil ekstrak sampai terlihat index.html dan semua folder.
+3. Masuk ke GitHub dan buat repository baru, misalnya paparan-lap.
+   Gunakan Public jika ingin website dapat dibuka masyarakat. Dokumen
+   evidence dalam paket akan ikut dapat diakses pengunjung.
+4. Unggah dalam TIGA TAHAP ke root repository yang sama:
+
+   Tahap A:
+   index.html, .nojekyll, PANDUAN_GITHUB.txt, folder aset, pdf dan video.
+
+   Tahap B:
+   Folder foto (66 file).
+
+   Tahap C:
+   Folder dokumentasi (36 file).
+
+   Untuk tiap tahap, pilih Add file > Upload files, lalu SERET file/folder
+   dari komputer ke area upload GitHub. Menyeret folder mempertahankan
+   susunan direktorinya. Selesaikan dengan Commit changes.
+   Ulangi dari root repository untuk tahap berikutnya.
+   Pembagian ini menjaga setiap tahap di bawah 100 file.
+
+5. Setelah lengkap, buka Settings > Pages.
+6. Pada Build and deployment:
+   Source : Deploy from a branch
+   Branch : main
+   Folder : / (root)
+   Klik Save.
+7. Tunggu deployment selesai. Buka alamat website yang ditampilkan GitHub
+   di halaman Pages. Jangan menggunakan alamat halaman kode index.html
+   atau alamat Raw; gunakan alamat website GitHub Pages.
+
+PEMERIKSAAN SETELAH TERBIT
+- Cover dan seluruh 12 slide tampil.
+- Pop-up foto dan kegiatan dapat dibuka dan ditutup.
+- PDF dapat dibaca dengan scroll; SK 1246 menampilkan 8 halaman utuh.
+- Tutorial dan tiga testimoni dapat diputar.
+- Cetak: A4, landscape, margin tidak ada, skala 100%, grafik latar aktif,
+  header/footer browser mati.
+
+MEMPERBARUI WEBSITE
+Ganti file yang berubah pada path yang sama lalu Commit changes.
+GitHub Pages akan menerbitkan pembaruan. Jika browser menampilkan versi
+lama, gunakan Ctrl+F5 setelah deployment baru selesai.
+
+SUMBER PETUNJUK GITHUB
+https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
